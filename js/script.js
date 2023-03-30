@@ -21,3 +21,19 @@ let movieName = '',
     personalMovieDB.movies[movieName] = movieRating;
 
     console.log(personalMovieDB);
+
+   
+    
+    let result = '';
+    const length = 7;
+
+    for (let i = 1; i < length; i++) {
+
+        for (j = 0; j < i; j++) {
+            result += '*';
+        }
+
+        result += '\n';
+    }
+
+    console.log(result);
